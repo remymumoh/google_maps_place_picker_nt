@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   geolocator: ^10.0.1
-  google_api_headers: ^4.2.5
+  google_api_headers:
+    git:
+      url: https://github.com/remymumoh/google_api_headers.git
+      ref: main
   google_maps_flutter: ^2.5.0
   flutter_google_maps_webservices: ^1.1.1
   http: ^1.1.0
